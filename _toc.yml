@@ -1,0 +1,30 @@
+format: jb-book
+root: src/about/introduction
+parts:
+
+  - caption: LINUX BASICS
+    chapters:
+    - file: src/overview/sdirect
+      sections:
+      - file: src/python/sdirect
+        title: "...in Python"
+  - caption: HPC
+    chapters:
+    - file: src/hpc/getting-started
+      sections:
+      - file: src/hpc/getting-started
+      - file: src/hpc/python
+        title: "Python"
+      - file: src/hpc/mathematica
+        title: "Mathematica"
+      - file: src/hpc/matlab
+        title: "Matlab"
+  - caption: AUTOMATED WORKFLOWS
+    chapters:
+    - file: src/overview/bea
+
+  - caption: ABOUT
+    chapters:
+    - file: src/about/contributing
+    - file: src/about/license-reuse
+    - file: src/about/tech-details
