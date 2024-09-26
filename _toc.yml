@@ -2,29 +2,47 @@ format: jb-book
 root: src/about/introduction
 parts:
 
-  - caption: LINUX BASICS
-    chapters:
-    - file: src/overview/sdirect
-      sections:
-      - file: src/python/sdirect
-        title: "...in Python"
-  - caption: HPC
-    chapters:
-    - file: src/hpc/getting-started
-      sections:
-      - file: src/hpc/getting-started
-      - file: src/hpc/python
-        title: "Python"
-      - file: src/hpc/mathematica
-        title: "Mathematica"
-      - file: src/hpc/matlab
-        title: "Matlab"
-  - caption: AUTOMATED WORKFLOWS
-    chapters:
-    - file: src/overview/bea
+- caption: LINUX BASICS
+  chapters:
+  - file: src/linux/intro
+    title: "What is Linux?"
+  - file: src/linux/wsl
+    title: "WSL"
+    
+- caption: HPC
+  chapters:
+  - file: src/hpc/getting-started
+    title: "Getting Started"
+  - file: src/hpc/python
+    title: "Python"
+  - file: src/hpc/mathematica
+    title: "Mathematica"
+  - file: src/hpc/matlab
+    title: "Matlab"
+        
+- caption: AUTOMATED WORKFLOWS
+  chapters:
+  - file: src/workflows/intro
+    title: "Getting Started"
+  - file: src/workflows/bash
+    title: "Bash"
+        
+- caption: GPU PROGRAMMING
+  chapters:
+  - file: src/gpu/intro
+    title: "Getting Started"
+  - file: src/gpu/setup
+    title: "Setup"
+        
+- caption: QUANTUM COMPUTING
+  chapters:
+  - file: src/quantum/intro
+    title: "What is Quantum Computing?"
+  - file: src/workflows/setup
+    title: "Setup"
 
-  - caption: ABOUT
-    chapters:
-    - file: src/about/contributing
-    - file: src/about/license-reuse
-    - file: src/about/tech-details
+- caption: ABOUT
+  chapters:
+  - file: src/about/contributing
+  - file: src/about/license-reuse
+  - file: src/about/tech-details
