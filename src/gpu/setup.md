@@ -1,3 +1,3 @@
-# Quantum Computing Setup
+# GPU Computing Setup
 
 To get started...
